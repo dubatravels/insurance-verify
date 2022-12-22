@@ -1,13 +1,13 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-import VerifyInsurance from './routes/verify';
+import Routes from './Routes';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/verify/:encodedData" element={<VerifyInsurance />} />
-    </Routes>
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 

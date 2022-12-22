@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './vendor.css';
+import '../styles/verify.css';
 
 import { useParams } from 'react-router-dom';
 
@@ -24,7 +24,7 @@ export default function VerifyInsurance() {
     <>
       <head>
         <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>WIS - Verify Cover Result</title>
