@@ -6,7 +6,7 @@ import {
   Navigate as Redirect,
 } from 'react-router-dom';
 
-import VerifyInsurance from './routes/VerifyInsurance';
+import VerifyInsurance from './pages/VerifyInsurance';
 
 function Routes() {
   const routes = [
